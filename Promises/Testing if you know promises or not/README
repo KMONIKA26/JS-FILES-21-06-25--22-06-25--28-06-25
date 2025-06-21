@@ -1,0 +1,41 @@
+# 📘 Promises in JavaScript - Explanation Video
+
+## 🎥 Video Link
+
+[Click here to watch the video](https://drive.google.com/file/d/YOUR_VIDEO_ID/view?usp=sharing)
+
+> Note: Replace the Google Drive link above with your actual video link and ensure it’s set to **"Anyone with the link can view"**.
+
+---
+
+## 📌 Topics Covered in the Video
+
+### 1️⃣ What are Promises and Why Do We Need Them (⏱️ 0:00 – 5:00)
+- JavaScript is single-threaded and handles async operations using callbacks and promises.
+- Promises provide a cleaner and more manageable way to deal with asynchronous behavior.
+- A Promise is an object that may be **resolved**, **rejected**, or **pending**.
+- Example of creating a Promise and how it replaces traditional callback structure.
+
+### 2️⃣ How to Execute a Promise and Handle Its Results (⏱️ 5:00 – 10:00)
+- `resolve(value)` is called on success.
+- `reject(error)` is called on failure.
+- `.then()` handles successful resolution.
+- `.catch()` handles rejection/errors.
+- `.finally()` executes regardless of outcome.
+- Real example using `setTimeout()` and `Math.random()` to simulate async behavior.
+
+```javascript
+const promise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    Math.random() > 0.5 ? resolve("Success!") : reject("Failure!");
+  }, 1000);
+});
+
+promise
+  .then((msg) => console.log("Resolved:", msg))
+  .catch((err) => console.error("Rejected:", err))
+  .finally(() => console.log("Operation completed"));
+
+
+
+
