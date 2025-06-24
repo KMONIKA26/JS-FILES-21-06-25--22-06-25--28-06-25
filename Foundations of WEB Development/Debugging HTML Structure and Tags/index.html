@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Debug Page</title>
+</head>
+<body>
+  <h1>Welcome to my Page</h1>
+
+  <p>This is a paragraph that introduces the page.</p>
+
+  <img src="image.jpg" alt="Sample Image">
+
+  <form action="">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <br><br>
+
+    <button type="submit">Login</button>
+  </form>
+</body>
+</html>
+
+<!-- 
+| Issue                                                   | Fix                                               |
+| ------------------------------------------------------- | ------------------------------------------------- |
+| `<title>` not closed                                    | Closed with `</title>`                            |
+| `<meta>` tag was inside `<title>`                       | Moved `<meta charset="UTF-8">` above `<title>`    |
+| `<h1>` closed with `</h2>`                              | Changed to correct `</h1>`                        |
+| `<p>` tag not closed                                    | Added `</p>`                                      |
+| `<img>` tag had malformed attributes                    | Corrected to `src="image.jpg" alt="Sample Image"` |
+| `name="username>` missing quote                         | Corrected to `name="username"`                    |
+| `<button>` tag not closed                               | Added `</button>`                                 |
+| Input fields lacked `id` attributes (for accessibility) | Added `id="username"` and `id="password"`         |
+| Optional: Added `<br>` tags for form spacing            | To improve readability                            | -->

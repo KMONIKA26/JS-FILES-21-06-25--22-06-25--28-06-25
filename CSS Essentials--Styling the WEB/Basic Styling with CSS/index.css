@@ -1,0 +1,26 @@
+/* Set page background */
+body {
+  background-color: #d3d3d3; /* light gray */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+  color: navy;
+}
+
+h2 {
+  color: darkred;
+}
+
+/* Paragraph styles */
+.blue-paragraph {
+  color: blue;
+  font-size: 20px;
+}
+
+.green-paragraph {
+  color: green;
+  font-size: 18px;
+}

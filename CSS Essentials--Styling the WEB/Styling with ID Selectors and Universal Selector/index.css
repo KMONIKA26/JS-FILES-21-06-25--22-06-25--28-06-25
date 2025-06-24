@@ -1,0 +1,33 @@
+/* Universal selector: Remove all default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style for h1 with id="main-title" */
+#main-title {
+  font-size: 32px;
+  color: darkblue;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Style for h2 with id="subtitle" */
+#subtitle {
+  font-size: 24px;
+  color: darkgreen;
+  margin: 10px 0 20px 0;
+  text-align: center;
+}
+
+/* Style for all paragraphs */
+p {
+  padding: 15px;
+  margin: 10px auto;
+  width: 80%;
+  border: 1px solid #cccccc;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}

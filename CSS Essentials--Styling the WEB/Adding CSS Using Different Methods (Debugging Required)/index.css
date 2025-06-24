@@ -1,0 +1,30 @@
+#main-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #e6e6e6;
+}
+#main-container h1 {
+  color: #333;
+  text-align: center;
+}
+#main-container p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+#main-container .highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+#main-container .note {
+  color: darkgreen;
+  font-style: italic;
+}
+#main-container .blue-paragraph {
+  color: blue;
+  font-size: 20px;
+}
+#main-container .green-paragraph {
+  color: green;
+  font-size: 18px;
+}
